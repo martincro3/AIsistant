@@ -1,7 +1,7 @@
 import speech_recognition as sr
 
 def listen_and_recognize():
-    # Initialize the recognizer
+    # Initialize the recognizer test
     r = sr.Recognizer()
 
     # Use the default microphone as the audio source
