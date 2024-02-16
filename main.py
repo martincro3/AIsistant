@@ -1,4 +1,5 @@
-import speech_functions, input_processing
+# import speech_functions, input_processing
+from modules import *
 
 def main():
     while True:
