@@ -1,3 +1,5 @@
+import speech_recognition as sr
+
 def listen_and_recognize():
     # Initialize the recognizer test
     r = sr.Recognizer()
@@ -16,3 +18,5 @@ def listen_and_recognize():
             return "Could not request results"
         except sr.WaitTimeoutError:
             return "No speech detected"
+        
+__all__ = ['listen_and_recognize']
